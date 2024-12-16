@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
 	for (int i = 0; i < n; ++i)
 	{
 		scanf_s("%d", &h);
+
 		if (h <= 437)
 		{
 			w = i + 1;
