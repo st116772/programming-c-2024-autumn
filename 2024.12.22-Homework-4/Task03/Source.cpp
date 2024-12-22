@@ -15,6 +15,7 @@ int main(int argc, char* argv[])
     for (int i = 1; i < n; ++i)
     {
         scanf_s("%d", &a[i]);
+
         if (a[i] > x)
         {
             x = a[i];
@@ -31,6 +32,7 @@ int main(int argc, char* argv[])
         {
             a[i] = y;
         }
+
         printf("%d ", a[i]);
     }
 
