@@ -3,12 +3,11 @@
 int main(int argc, char* argv[])
 {
 	int n = 0;
-	int i = 0;
 	int a[1001] = { 0 };
 
 	scanf_s("%d", &n);
 
-	for (i = 1; i <= n; ++i)
+	for (int i = 1; i <= n; ++i)
 	{
 		scanf_s("%d", &a[i]);
 	}
@@ -21,7 +20,7 @@ int main(int argc, char* argv[])
 
 	int k = l;
 
-	for (i = l + 1; i <= r; ++i)
+	for (int i = l + 1; i <= r; ++i)
 	{
 		if (a[i] > a[k])
 		{
